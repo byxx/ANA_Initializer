@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D54D89A01F07F945009CE408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D899F1F07F945009CE408 /* main.m */; };
+		D54D89A81F07F96B009CE408 /* Instrument.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D89A71F07F96B009CE408 /* Instrument.m */; };
+		D54D89AE1F0812BE009CE408 /* Guitar.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D89AD1F0812BE009CE408 /* Guitar.m */; };
+		D54D89B11F086E5D009CE408 /* Piano.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D89B01F086E5D009CE408 /* Piano.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		D54D899C1F07F945009CE408 /* ANA_Foundation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANA_Foundation; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54D899F1F07F945009CE408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D54D89A61F07F96B009CE408 /* Instrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Instrument.h; sourceTree = "<group>"; };
+		D54D89A71F07F96B009CE408 /* Instrument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instrument.m; sourceTree = "<group>"; };
+		D54D89AC1F0812BE009CE408 /* Guitar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guitar.h; sourceTree = "<group>"; };
+		D54D89AD1F0812BE009CE408 /* Guitar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guitar.m; sourceTree = "<group>"; };
+		D54D89AF1F086E5D009CE408 /* Piano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Piano.h; sourceTree = "<group>"; };
+		D54D89B01F086E5D009CE408 /* Piano.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Piano.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				D54D899F1F07F945009CE408 /* main.m */,
+				D54D89A61F07F96B009CE408 /* Instrument.h */,
+				D54D89A71F07F96B009CE408 /* Instrument.m */,
+				D54D89AC1F0812BE009CE408 /* Guitar.h */,
+				D54D89AD1F0812BE009CE408 /* Guitar.m */,
+				D54D89AF1F086E5D009CE408 /* Piano.h */,
+				D54D89B01F086E5D009CE408 /* Piano.m */,
 			);
 			path = ANA_Foundation;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54D89AE1F0812BE009CE408 /* Guitar.m in Sources */,
+				D54D89B11F086E5D009CE408 /* Piano.m in Sources */,
+				D54D89A81F07F96B009CE408 /* Instrument.m in Sources */,
 				D54D89A01F07F945009CE408 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
